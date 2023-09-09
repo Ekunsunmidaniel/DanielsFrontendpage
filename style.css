@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  /* max-width: 1440px; */
+}
+
+.Personal-Data-Board {
+  width: 100%;
+}
+
+.picture {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 45fr 55fr;
+  gap: 45px;
+  max-width: 1440px;
+}
+
+.my-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.personal-data {
+  margin-bottom: 40px;
+}
+.personal-data-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 24px;
+  gap: 30px;
+}
+
+.Header-primary {
+  font-size: 56px;
+  margin-top: 60px;
+}
+
+a:link,
+:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+.Times {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.date-time {
+  font-size: 24px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel's Dashboard</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <!-- <script src="script.js"></script> -->
+  </head>
+
+  <body>
+    <section class="Personal-Data-Board grid">
+      <div class="picture-side">
+        <img
+          class="picture"
+          data-testid="slackDisplayImage"
+          alt="Daniel's picture"
+          src="ASSETS/IMG-20230821-WA0038.jpg"
+        />
+      </div>
+
+      <div class="other-details">
+        <div class="my-info">
+          <p class="Header-primary">Personal Data</p>
+          <div class="personal-data">
+            <ul class="personal-data-list">
+              <li data-testid="slackUserName" class="Name">
+                Slack Name : Ekunsunmi Daniel
+              </li>
+              <li data-testid="myTrack" class="Track">Track : FrontEnd</li>
+              <li data-testid="githubURL" class="Git">
+                GitHub URL:
+                <a href="https://github.com/Ekunsunmidaniel/DanielsFrontendpage"
+                  >Ekunsunmi Daniel</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="Times">
+          <p id="UTCTime" data-testid="currentUTCTime" class="date-time"></p>
+          <p
+            id="dayOfTheWeek"
+            data-testid="currentDayOfTheWeek"
+            class="date-time"
+          ></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
